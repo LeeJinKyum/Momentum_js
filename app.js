@@ -1,3 +1,4 @@
+/*
 const age = parseInt(prompt("How old are you?"));
 
 if (isNaN(age) || age < 0) {
@@ -13,8 +14,12 @@ if (isNaN(age) || age < 0) {
 }else if (age > 80) {
     console.log("You can do whatever you want.");
 }
+*/
+document.title = "Hello From JS!"; 
 
+const title = document.getElementById("title");
 
-if ((a && b) || (c && d)) {
-    
-}
+title.innerText = "Got you!";
+
+console.log(title.id);
+console.log(title.className);
